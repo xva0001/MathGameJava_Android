@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--
+_
+ orientation on phone
+_
+    -->
+    <!-- limited on phone -->
+    <compatible-screens>
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="560"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="560"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="420"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="560"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="large" />
+    </compatible-screens> <!-- premission declear -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Itp4501_gameingx"
+        tools:targetApi="31">
+        <activity
+            android:name=".FinishActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderboardActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".RecordActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Core_play"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <activity
+        android:name=".Ex1_play"
+        android:screenOrientation="portrait"
+        android:exported="false" />
+
+        <activity
+            android:name=".Ex2_play"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <activity
+            android:name=".Ex3_play"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <activity
+            android:name=".StartPlayingPageActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".BackgroundSoundService"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<!-- single_line_paper_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    >
+    <!-- Background color (optional) -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Horizontal line -->
+    <item
+        android:top="1dp"
+        android:bottom="1dp"
+        android:left="0dp"
+        android:right="0dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="6dp"
+                android:color="#000" />
+        </shape>
+    </item>
+</layer-list>

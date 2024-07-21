@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">itp4501_gameingx</string>
+    <string name="play">Play</string>
+    <string name="setting">Setting</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="game_name">Math Homework Battle</string>
+    <string name="gallery">Gallery</string>
+    <string name="language">Language</string>
+    <string-array name="lang_list">
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+    <string name="volume">Volume</string>
+    <string name="scriptStart">emm… Please teach me to do math homework, it is too difficult.</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+
+    <string name="headImage">Head Image</string>
+    <string name="scriptCoreStart">Let fill the answer,</string>
+    <string name="scriptWrong">emmm... It may be fault</string>
+    <string name="scriptWrong2">A..... It is not good.</string>
+    <string name="scriptWrong3">No........ I leave here</string>
+    <string name="scriptTrue">This question is easy</string>
+    <string name="scriptTrue2">well done</string>
+    <string name="scriptTrue3">great!!!</string>
+    <string name="scriptWrong5" translatable="false">...</string>
+    <string name="scriptWrong4">"I leave here, "</string>
+    <string name="scriptTrue4">Yes, I like this, keep going</string>
+    <string name="scriptAllTrue">well done</string>
+    <string name="scriptTrue8">great try!</string>
+    <string name="scriptTrue6">it is fair.</string>
+    <string name="scriptunder5">are you kidding me?</string>
+    <string name="question">Question</string>
+    <string name="time">Time :</string>
+    <string name="ans">Answer</string>
+    <string name="clearAll">Clear</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="core_play_alter">Do you want to leave ?</string>
+    <string name="leave">leave</string>
+    <string name="start">Start!</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="your_record">Your Record</string>
+    <string name="leader_header_name">Name</string>
+    <string name="leader_header_correct">Correct</string>
+    <string name="leader_header_time">Time</string>
+    <string name="record_time">Record time</string>
+    <string name="end">End Game</string>
+    <string name="result">Result</string>
+    <string name="continue_str">continue</string>
+    <string name="back_to_main_page">back to main page</string>
+    <string name="clear_record">clear record</string>
+    <string name="Ex1">ex1(never end mode)(No Record)</string>
+    <string name="Ex2">Ex2 Crazy Mode(No End)(No Record)</string>
+    <string name="Ex3">Ex3 only * / Mode(No Record)(endless)</string>
+    <string name="leave_game">user leaved the game</string>
+</resources>

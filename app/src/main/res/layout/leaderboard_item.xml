@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="99"
+    android:layout_margin="6dp"
+    android:id="@+id/lnlLeaderItem"
+
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/leader_item_name_tv"
+        android:layout_weight="33"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/leader_item_correct_tv"
+        android:layout_weight="33"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/leader_item_time_tv"
+        android:layout_weight="33"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:textAlignment="center"
+        />
+</LinearLayout>

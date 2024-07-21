@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:contentDescription="@string/game_name"
+        android:scaleType="centerCrop"
+        android:scaleX="1"
+
+
+        android:scaleY="1"
+
+        android:src="@drawable/room1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_setting"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting"
+            android:textSize="40sp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="2dp"
+            android:padding="6dp"
+            android:background="@drawable/bg_setting2"
+            />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="4"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:layout_gravity="fill_horizontal"
+
+            android:textSize="30sp"
+            android:text="@string/language"/>
+
+        <Spinner
+            android:id="@+id/spiLang"
+            android:layout_gravity="end"
+            android:popupBackground="@color/Gray"
+            android:layout_width="wrap_content"
+
+            android:layout_height="48dp" />
+
+        <TextView android:text="@string/volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/White"
+            android:layout_gravity="start"
+            android:textSize="30sp"
+
+            />
+
+            <SeekBar
+                android:layout_width="245dp"
+                android:background="@drawable/bg_setting2"
+                android:layout_height="wrap_content"
+                android:id="@+id/skbVolumn"
+                android:layout_gravity="center" />
+
+            <TextView android:text="@string/clear_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                android:layout_gravity="start"
+                android:textSize="30sp"
+                />
+            <Button android:text="@string/clear_record"
+                android:layout_gravity="end"
+                android:id="@+id/btnClearRecord"
+                />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
